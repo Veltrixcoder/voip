@@ -1,8 +1,7 @@
-name = "voip"
-main = "worker.js"
+name = "voicelink"
+main = "worker.js"          # ← must point to your actual file
 compatibility_date = "2024-09-23"
 
-# Durable Objects binding — the signaling room
 [[durable_objects.bindings]]
 name = "SIGNALING_ROOM"
 class_name = "SignalingRoom"
